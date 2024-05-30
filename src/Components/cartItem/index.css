@@ -1,0 +1,109 @@
+.cart-sep{
+  padding-top: 30px;
+}
+.each-cart{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.img-cart{
+    width:10em;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.cart-desc {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    color:blue;
+    width: 100%;
+
+}
+@media screen and (max-width:576px) {
+   
+    .img-cart{
+        width:70px;
+        height: 90px;
+    }
+    .cart-desc{
+        padding: 25px 0px 15px;
+        font-size: 12px;
+    }
+    .Quntity-cont{
+        position: absolute;
+        right:100px;
+        top:40px
+    }
+    .quntity-icon1{
+        width:10px;
+    }
+    .quntity-icon{
+        width:10px;
+    }
+    .quntity{
+        position: absolute;
+        top:15px;
+    }
+    .price{
+        position: absolute;
+        right: 120px; 
+    }
+    .amount{
+        display: inline;
+        font-size: 20px;
+    }
+    .delete-icon{
+        width: 20px;
+    }
+    .delete-button{
+        position: absolute;
+        right: 2em;
+    }
+  
+}
+.Quntity-cont{
+    display: flex;
+    flex-direction: row;
+    padding-left: 7em;
+    padding-top: 30px;
+    position: relative;
+}
+.quntity-icon1{
+    padding-right: 13px;
+    padding-top: 25px;
+    position: relative;
+
+}
+.quntity{
+  font-weight: bold;  
+  font-size: 20px;  
+  position: relative;
+
+}
+.quntity-icon{
+    padding-left: 13px;
+    padding-top: 25px;
+    position: relative;
+
+}
+.price{
+    padding-left: 2em;
+    padding-top: 20px;
+    width:100%;
+    position: relative;
+}
+.delete-button{
+    cursor: pointer;
+    background-color:antiquewhite;
+    border: none;
+}
+.del-cont{
+    margin: 15px;
+  padding-left: 20em;
+}
+.delete-icon{
+    width:20px;
+}
+
+

@@ -1,0 +1,126 @@
+
+.login-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    max-width: 1110px;
+    margin: auto;
+    gap:50px;
+    box-shadow: #64748b;
+  }
+
+  
+  
+  .login-website-logo-mobile-image {
+    width: 165px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+  
+ 
+  
+  .login-image {
+    width: 36em;
+  }
+ 
+  .login-website-logo-desktop-image {
+    width: 185px;
+  }
+  
+
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    background-color: white;
+  }
+ 
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border:none;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #475569;
+  }
+  
+  .username-input-filed {
+    font-size: 14px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+  }
+  
+  .password-input-filed {
+    font-size: 14px;
+    height: 40px;
+    width:100%;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+  }
+  
+  .login-button {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 2px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    border: none;
+    margin-left: 76px;
+  }
+  
+  .error-message {
+    align-self: start;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 16px;
+    color: #ff0b37;
+  }
+
+  @media screen and (max-width:576px) {
+    .login-form-container{
+     display: flex;
+     flex-direction: column;
+    }
+    .login-image{
+     width:20em;
+    }
+    .form-container{
+      padding-right: 5em;
+    }
+ }
+  

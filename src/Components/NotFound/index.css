@@ -1,0 +1,7 @@
+.not-found-container{
+  display: flex;
+  justify-content: center;
+}
+.not-found-img{
+   width:55em;
+}

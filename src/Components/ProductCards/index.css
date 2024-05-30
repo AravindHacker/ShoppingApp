@@ -1,0 +1,58 @@
+.link-container{
+    text-decoration: none;
+    color: black;
+}
+.productCard-Container{
+    width:15em;
+    font-family: 'Roboto';
+    margin-right: 33px;
+    margin-bottom: 27px;
+}
+.productCard-img{
+    width: 15em;
+}
+.card-title{
+    font-weight:bolder;
+    margin-left: 7px;
+}
+.card-brand{
+    font-size: 12px;
+    margin-left: 7px;
+
+}
+.price-rating{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-price{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 7px;
+    
+
+}
+.price-star{
+    display: flex;
+    background-color: blue;
+    color: white;
+    width: 45px;
+    height: 25px;
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 7px;
+    margin-right: 7px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.rating{
+    padding-left: 4px;
+}
+
+.star-img{
+    width:20px;
+    height: 20px;
+    padding-top: 2px;
+    padding-left: 3px;
+}

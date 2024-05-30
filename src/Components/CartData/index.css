@@ -1,0 +1,38 @@
+.cart-container{
+    width:70em;
+    border-radius: 10px;
+
+}
+.cart-summary{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 30em;
+    margin: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 23px;
+    font-weight: bold;  
+    color: chartreuse;
+}
+.total-data{
+    color:black;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Roboto';
+}
+@media screen and (max-width:576px) {
+    .cart-container{
+        width: 24em;
+        border-radius: 10px;
+    }
+    .cart-summary{
+        position: absolute;
+        right: -150px;
+        width:100%;
+        font-size: 20px;
+    }
+    .total-data{
+        font-size: 25px;
+    }
+    
+}

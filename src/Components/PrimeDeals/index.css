@@ -1,0 +1,28 @@
+.prime-products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 35px;
+}
+.register-prime-image{
+    margin: 55px;
+    width:90em;
+}
+
+.loading-head{
+    color:chartreuse;
+    text-align: center;
+    font-size: 27px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.prime-header{
+    margin-left: 70px;
+}
+@media screen and (max-width:576px) {
+    .register-prime-image{
+        width:21em;
+        min-height: 13em;
+        padding-right: 6s0px;
+    }
+    
+}

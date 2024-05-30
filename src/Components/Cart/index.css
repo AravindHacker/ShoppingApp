@@ -1,0 +1,38 @@
+.cartData{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.Cart-heading{
+   padding-right: 12em;
+}
+.header-remove{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.remove-btn{
+   color: brown;
+   cursor: pointer;
+   padding-top: 70px;
+   font-family: 'Roboto';
+   font-size: 20px;
+   font-weight: bold;
+   background-color: white;
+   border: none;
+}
+@media screen and (max-width:576px) {
+   .header-remove{
+      display: inline;
+   }
+   .Cart-heading{
+      padding-left: 15px;
+      padding: 10px;
+      padding-top: 10px;
+   }
+   .remove-btn{
+      padding-left: 19em;
+      font-size: 16px;
+   }
+}

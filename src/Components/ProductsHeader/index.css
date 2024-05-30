@@ -1,0 +1,28 @@
+.filter-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+    margin-right: 70px;
+    
+}
+.filter-options{
+    height: 35px;
+    margin-top: 10px; 
+}
+.FaFilter-icons{
+    margin-top: 20px;
+}
+@media screen and (max-width:576px) {
+    .filter-con{
+        padding-top: 30px;
+        
+    }
+    .FaFilter-icons{
+        padding-left: 8em;
+    }
+    .sort-bar{
+        padding-top: 13px;
+        padding-left: 10px;
+    }
+}
