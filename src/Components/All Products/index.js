@@ -1,6 +1,5 @@
 import { Component } from "react";
 import { CiSearch } from "react-icons/ci";
-import { MdClear } from "react-icons/md";
 import Cookies from "js-cookie";
 import ProductCard from "../ProductCards";
 import ProductHeader from "../ProductsHeader";
